@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+
 export const NewsFeed = () => {
   const [articles, setArticles] = useState([
     {
@@ -29,12 +30,12 @@ export const NewsFeed = () => {
       });
   }, []);
 
-  const first7Articles = articles?.slice(0, 7);
+  const first10Articles = articles?.slice(0, 10);
 
   return (
     <div className="news-feed">
-      <h2>NewsFeed</h2>
-      {first7Articles?.map((e, i) => (
+      <h2>News Feed</h2>
+      {first10Articles?.map((e, i) => (
         <div key={i}>
           <a href={e.url}>
             <p>{e.title}</p>

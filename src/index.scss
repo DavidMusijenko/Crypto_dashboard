@@ -1,3 +1,8 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,18 +18,49 @@ code {
 }
 
 .app {
+  font-family: Roboto;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .news-feed {
-  background-color: red;
+  background-color: rgb(204, 204, 231);
+  padding: 10px;
+  margin: auto auto auto 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 600px;
+
+  h2 {
+    text-align: center;
+  }
 }
 
 .currency-converter__main {
-  background-color: blue;
+  background-color: rgb(230, 223, 211);
+  padding: 10px;
+  margin: auto 0 auto auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+  max-width: 600px;
+}
+
+.currency-converter__input-box {
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.currency-converter__button {
+  float: right;
+  top: 20px;
 }
 
 .exchange-rate {
-  background-color: green;
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
 }
