@@ -2,11 +2,11 @@
 
 ![grab-landing-page](https://github.com/DavidMusijenko/Crypto_dashboard/blob/main/demo.gif)
 
-## Main aims
+# Main aims
 
 Practice workflow with APIs and React Testing with Jest, learn TypeScript and Material UI
 
-### Notes
+## Notes
 
 The grid system is implemented the way MUI likes it
 
