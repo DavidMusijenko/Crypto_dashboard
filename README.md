@@ -1,4 +1,4 @@
-# Crypto Dashboard with 2 Rapid APIs, Typescript and Material UI
+# Crypto Dashboard with 2 Rapid APIs, Typescript, Material UI and Node.js
 
 ![grab-landing-page](https://github.com/DavidMusijenko/Crypto_dashboard/blob/main/demo.gif)
 
