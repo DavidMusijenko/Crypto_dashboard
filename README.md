@@ -4,13 +4,13 @@
 
 # Main aims
 
-Practice workflow with APIs and React Testing with Jest, learn TypeScript and Material UI
+Practice workflow with APIs and React Testing with Jest, learn Node.js, TypeScript and Material UI
 
 ## Notes
 
 The grid system is implemented the way MUI likes it
 
-API key is not secured
+API key is secured through mini backend
 
 # Getting Started with Create React App
 
