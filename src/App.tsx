@@ -1,4 +1,4 @@
-import NewsFeed from "./components/NewsFeed";
+import NewsFeed from "./components/newsFeed/NewsFeed";
 import CurrencyConverter from "./components/currencyConverter/CurrencyConverter";
 import { Grid } from "@mui/material";
 
