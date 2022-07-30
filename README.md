@@ -1,16 +1,16 @@
-# Crypto Dashboard with 2 Rapid APIs, Typescript and Material UI
+# Crypto Dashboard with 2 Rapid APIs, Typescript, Material UI and Node.js
 
 ![grab-landing-page](https://github.com/DavidMusijenko/Crypto_dashboard/blob/main/demo.gif)
 
 # Main aims
 
-Practice workflow with APIs and React Testing with Jest, learn TypeScript and Material UI
+Practice workflow with APIs and React Testing with Jest, learn Node.js, TypeScript and Material UI
 
 ## Notes
 
 The grid system is implemented the way MUI likes it
 
-API key is not secured
+API key is secured through mini backend
 
 # Getting Started with Create React App
 
